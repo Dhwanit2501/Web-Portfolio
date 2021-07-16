@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="icon" href="Pictures/12606888691574055270-128.png">
+    <link rel="stylesheet" href="About.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <navbar>
+        <nav>
+            <div class="nav-wrapper">
+                <a class="brand-logo">DP</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="Main.html">Home</a></li>
+                    <li><a href="About.html" id="about">About</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="PhotoBlog.html">Photo Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="Main.html">Home</a></li>
+            <li><a href="About.html" id="sabout">About</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="PhotoBlog.html">Photo Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </navbar>
+    <br>
+    <section class="container-flow">
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Pictures/jefferson-santos-9SoCnyQmkzI-unsplash.jpg">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">A CREATIVE MIND<i
+                        class="material-icons right">more_vert</i></span>
+                <p>--> CLICK ON THE CARD TO KNOW MORE...</p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">MORE ABOUT ME...<i
+                        class="material-icons right">close</i></span>
+                <p id="ab">Hi, I am Dhwanit Pandya an Indian engineering student currently pursuing my bachelor’s in
+                    technology
+                    from Dwarkadas J Sanghvi College of Engineering. So basically I am interested in Front-End as of now
+                    and this is one of the projects using the same. Hope you like it.<br><br>
+                    Cheers !!!
+                </p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="Main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+
+</body>
+
+</html>

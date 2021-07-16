@@ -1,0 +1,290 @@
+.nav-wrapper{
+    background-color: #000000;;
+    
+    
+}
+.container-main{
+    color: azure;
+    text-align: center;
+    width: 100%;
+
+}
+#title{
+    font-size: 40px;
+    font-family: 'Bree Serif', serif;
+}
+
+.row .col.s6{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+   
+    
+    
+}
+.row .col.s12{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+.row .col.s6 .images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly !important;
+}
+.row .col.s6 .images2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly !important;
+}
+.row .col.s12 .images3{
+    
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nav-wrapper .brand-logo{
+    padding-left: 50px;
+    color:#fb8500;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
+}
+#con{
+    color:#fb8500;
+    border-bottom: solid #fb8500;
+}
+#con:hover{
+    transform: none;
+}
+#scon{
+    color: #fb8500;
+    font-weight: 500;
+}
+#scon:hover{
+    transform: none;
+}
+#doc{
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    float: left;
+    
+    height: 200px;
+    background-color: #03030386 !important;
+    font-family: 'Otomanopee One', sans-serif;
+}
+#doc:hover{
+    border: 2px solid #fb8500; 
+    transition-duration: 0.5s !important;
+  transform: scale(0.91);
+   }
+   #pat{
+    width: 100%;
+    float: right;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+    height: 200px;
+    background-color: #03030386 !important;
+    font-family: 'Otomanopee One', sans-serif;
+
+
+
+}
+#pat:hover{
+  border: 2px solid #fb8500; 
+  transition-duration: 0.5s !important;
+  transform: scale(0.91);
+}
+.row .s6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.844) !important;
+    margin-top: 80px !important;
+    border-radius: 10px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+}
+.btn-large {
+    height: 54px;
+    line-height: 54px;
+    font-size: 15px;
+    padding: 28px !important;
+}
+.btn-large:hover{
+    
+    transition-duration: 2s !important;
+}
+.row .col.s12 {
+  width: 95% !important;
+  margin: 20px !important;
+  left: auto;
+  right: auto;
+  text-align: center !important;
+  padding: 20px;
+  font-family: 'Suez One', serif;
+  
+
+  
+}
+#first{
+    font-size: 13px;
+}
+#big{
+  width: 100%;
+  font-size: 60px;
+  margin-bottom: 20px;
+  float: left;
+  border-radius: 10px;
+  height: 420px;
+  background-color: #212529 !important;
+  
+  
+}
+#big:hover{
+  border: 5px solid #fb8500; 
+  transition-duration: 5s !important;
+  transform: scale(1.1);
+  
+}  
+
+.nav-wrapper ul li a:hover{
+    color: #48cae4;
+    transition-duration: 2s ;
+    transform: scale(1.3);
+    background-color: black !important;
+
+}
+.nav-wrapper a{
+    color: white;
+    font-weight: 600;
+    font-family: 'Bona Nova', serif;
+    font-size: 25px;
+    margin-right:10px;
+    
+}
+
+navbar .sidenav li a{
+    color: white;
+    padding-top: 20px;
+    padding-top: 20px;
+    font-family: 'Bona Nova', serif;
+    font-size: 30px;
+    
+} 
+navbar .sidenav li a:hover{
+    color: #48cae4;
+    transition-duration: 0.5s;
+    transform: scale(0.91);
+}
+navbar .sidenav{
+    background-color:#000000;
+}
+
+body{
+   background-color:#000000;
+}
+
+.para{
+    font-size: 20px;
+}
+img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 90%;
+    
+    
+
+}
+#name{
+    color:#48cae4 ;
+}
+@media only screen and (max-width:600px){
+   .container .row .col s4{
+       font-size: 30px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       align-items: center;
+    
+
+   }
+   #title{
+       font-size: 35px;
+   }
+   .para{
+       font-size: 15px;
+   }
+   .nav-wrapper .brand-logo{
+       font-size: 40px;
+       padding-left: 10px;
+   }
+   navbar .sidenav li a{
+    font-size: 30px;
+    font-family: 'Bona Nova', serif;
+    padding: 30px;
+   }
+   navbar .sidenav li a:hover{
+    transform: scale(0.91);
+}
+   .row .col.s6 {
+    width: auto !important;
+    margin:0px !important;
+    left: auto;
+    right: auto;
+
+}
+.row .col.s6 {
+    width: 100% !important;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    font-family: 'Otomanopee One', sans-serif;
+  }
+  .row .col.s12 {
+    
+    margin: 0px !important;
+    font-size: 40px;
+    font-family: 'Otomanopee One', sans-serif;
+    
+  }
+  #big{
+    height: 100%;
+    width: 300px;
+    font-family: 'Suez One', serif;
+    font-size: 50px;
+}
+.row .col.s4 {
+    width: 100% !important;
+    margin-left: auto;
+    left: auto;
+    right: auto
+}
+#doc{
+  height: 400px;
+}
+#pat{
+  height: 400px;
+}
+.container{
+    margin-top: 10px !important;
+}
+}
+
+    

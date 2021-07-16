@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="icon" href="Pictures/12606888691574055270-128.png">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <navbar>
+        <nav>
+            <div class="nav-wrapper">
+                <a class="brand-logo">DP</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="Main.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Portfolio.html" id="port">Portfolio</a></li>
+                    <li><a href="PhotoBlog.html">Photo Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="Main.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Portfolio.html" id="sport">Portfolio</a></li>
+            <li><a href="PhotoBlog.html">Photo Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </navbar>
+    <br>
+
+    <div class="container-main">
+        <hr>
+        <span id="title">SKILLS THAT I POSSES</span>
+        <hr>
+        <br>
+        <section class="container">
+            <div class="row">
+                <div class="col s6">Front-End
+                    <div class="images">
+                        <img id="img1" src="Pictures/294678_html5_icon.png" alt="">
+                        <img src="Pictures/294692_css3_icon.png" alt="" id="img2">
+                        <img src="Pictures/javascript-icon-png-17.jpg" alt="" id="img4">
+                        <img src="Pictures/19681752361536207300-128.png" alt="" id="img5">
+                        <img src="Pictures/2396380601551941189-128.png" alt="" id="img6">
+                        <img src="Pictures/react-js.png" alt="" id="img7">
+                    </div>
+                </div>
+
+                <div class="col s6">Back-End
+                    <div class="images2">
+                        <img src="Pictures/mongodb.png" alt="" id="imga">
+                        <img src="Pictures/icons8-python-48.png" alt="" id="imgb">
+                        <img src="Pictures/icons8-nodejs-48.png" alt="" id="imgc">
+
+                    </div>
+                </div>
+                <div class="col s12">Languages
+                    <div class="images3">
+                        <img src="Pictures/icons8-c-programming-48.png" alt="" id="imgd">
+                        <img src="Pictures/icons8-c++-48.png" alt="" id="imge">
+                        <img src="Pictures/icons8-java-48.png" alt="" id="imgf">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="Main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+
+</body>
+
+</html>
